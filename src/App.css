@@ -1,0 +1,36 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+.title{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+}
+.task {
+    background-color: aqua;
+    margin: 10px;
+}
+.items_align{
+    text-align: left;
+}
+.Green {
+  color: rgb(244, 244, 248);
+  width: 100px;
+  background-color: green;
+}
+
+.Red {
+  color: rgb(244, 244, 248);
+  width: 100px;
+  background-color: red;
+}
+
+#distance {
+  display: grid;
+  grid-template-rows: 80px;
+  padding-top: 10px;
+}
